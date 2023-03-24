@@ -1,7 +1,10 @@
 # Grocery-Store-Analysis-Project
-This is a Grocery Store Analysis Project, 
 
-Week 1 Project: Grocery Store Analysis
+![image](https://user-images.githubusercontent.com/115732734/227569779-e4784364-114a-47b2-917f-3042064e519a.png)
+
+
+
+The following are the essential stages we followed to develop our final project.
 
 1. Add Power Pivot to your Menu bar
 2. Click on Manage 
@@ -148,3 +151,5 @@ Select Pie Chart and click OK
 
 
 Please find Dataset Below
+
+[GroceryStoreAwesomeChocolateAnalysis.xlsx](https://github.com/justinjabo250/Grocery-Store-Analysis-Project/files/11063731/Grocery_Store_Awesome_Chocolate_Analysis.xlsx)
