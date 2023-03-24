@@ -14,14 +14,15 @@ Week 1 Project: Grocery Store Analysis
     4. A new window opens. On the Home Click on Get Data from other sources.
 
     5. Scroll down and click Excel File.
-
-Graphical user interface, application  Description automatically generated
+    
+ ![g2](https://user-images.githubusercontent.com/115732734/227543566-5f495b96-9c01-4b06-89d4-f5e404eead4c.jpg)
 
 
 
     6. On the next page, click on browse to choose you file.
 
-Graphical user interface, text, application  Description automatically generated
+![g3](https://user-images.githubusercontent.com/115732734/227543632-a5347816-ebba-4bbe-a419-931aba70c3be.jpg)
+
 
    7. Get the Customer file data and check Use first row as column headers. Click on Finish.
 
@@ -45,9 +46,9 @@ Application, table  Description automatically generated
 
 
    3.  Repeat the step no. 10 for Product in Orders table on Cookie Type in Cookies Type table.
-
-Graphical user interface, Excel  Description automatically generated
-
+   
+   ![g5](https://user-images.githubusercontent.com/115732734/227543704-327bce58-1824-4257-bc8c-11dbd529e3e8.jpg)
+   
 
 
    4. Click on Data View beside Diagram View to return to your data.
@@ -65,21 +66,18 @@ To calculate Profit, click the first cell under Profit, go to the formular bar a
 Calculate Total Number of Customers
 
 Click on Measure
-Table  Description automatically generated
-
+![g6](https://user-images.githubusercontent.com/115732734/227543706-93784572-a57e-4b9e-b783-be1ef2ee3dbc.jpg)
 
 
   2. Choose Customer Table, name the measure as Total Number of Customers
-
-Graphical user interface, application  Description automatically generated
+  
+![g7](https://user-images.githubusercontent.com/115732734/227543710-684300d8-3077-4d7e-b603-9d796cc87d4d.jpg)
 
   3. In the formula space, type =DISTINCTCOUNT([Customer ID]) and click OK.
 
   4. Click on Manage and navigate to the Customers tab. Below the table, you will see Total Number of Customers = 5
-
-Graphical user interface, application, table, Excel  Description automatically generated
-
-
+  
+![g8](https://user-images.githubusercontent.com/115732734/227543712-e32f7dc2-a758-4ddc-8d01-7adc8a3a9f3c.jpg)
 
 
 
@@ -87,7 +85,8 @@ Calculate Total Profit using a Measure
 
 Click under the previous measure and type in the formular bar =SUM(Orders[Profit]) and hit Enter.
 Rename the measure to Total Profit and format it to currency.
-Graphical user interface, application, table, Excel  Description automatically generated
+
+![g9](https://user-images.githubusercontent.com/115732734/227543715-0a6e61a8-cd26-493d-93ca-5eab5ac6ed23.jpg)
 
 
 
@@ -105,7 +104,8 @@ Close Power Pivot
 Go to Insert tab and click on Pivot Tables. Choose New Worksheet.
 Expand the Customer table on the far right under PivotTable fields and drag the name column into Rows. Do same for the Order table and drag Order ID into Values. 
 Click the drop-down arrow on Order ID and go to Value Field settings. Change the Sum to Count.
-Graphical user interface, application, table, Excel  Description automatically generated
+
+![g11](https://user-images.githubusercontent.com/115732734/227543721-08e2207c-d88c-4e69-9dfe-a59564801ea0.jpg)
 
 
 
@@ -115,7 +115,8 @@ Click on Customer table and drag our Total Profit measure into the Values field.
 Click on Power Pivot and select KPIs just beside Measures. Click on New KPI
 Choose Total Profit as KPI base field (value)
 Make the Absolute value 600000 and click OK
-Graphical user interface  Description automatically generated
+
+![g12](https://user-images.githubusercontent.com/115732734/227543723-117b99df-efc8-4bc2-9fe6-abdb1a0ce323.jpg)
 
 
 
@@ -123,9 +124,9 @@ Graphical user interface  Description automatically generated
 
    6. Go to the Customers table under PivotTable fields and scroll down until you see a new icon with traffic symbol  named Total Profit.
 
-   7. Uncheck fx Value (Total Profit), Goal and Status and recheck only Status. You should see the values under Total Profit Status changed into color scale.
+   7. Uncheck fx Value (Total Profit), Goal and Status and recheck only Status. You should see the values under Total Profit Status changed into color scale.  
 
-Graphical user interface, application, table, Excel  Description automatically generated
+![g13](https://user-images.githubusercontent.com/115732734/227543728-20b1e362-7f8c-4b3e-a447-7cb77e78b1b9.jpg)
 
 
 
@@ -135,12 +136,15 @@ Visualize our Results
 
 Go to PivotChart Analyze and click on Pivot Chart
 Select Pie Chart and click OK
-Graphical user interface, application, table, Excel  Description automatically generated
+
+![g14](https://user-images.githubusercontent.com/115732734/227543731-ba432da6-6ef5-4f25-814c-267661e42690.jpg)
 
     3. Add a slicer by clicking Insert Slicer under the PivotTable Analyze
 
     4. The Slicers should be Cookie Type and Date.
 
-Graphical user interface, application, table, Excel  Description automatically generated
+
+![g15](https://user-images.githubusercontent.com/115732734/227543732-00d0e21f-9e25-4b1a-916f-bf899e589ff4.jpg)
+
 
 Please find Dataset Below
