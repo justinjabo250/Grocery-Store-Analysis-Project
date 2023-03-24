@@ -74,23 +74,23 @@ Click on Diagram View
 
 Calculate the revenue made per order.
 
-In the Order tab, add three new columns called Revenue, Cost and Profit.
-To calculate the Revenue, click the first cell under Revenue, go to the formula bar and type =RELATED(‘Cookie Type’[Revenue Per Cookie]) * Orders[Units Sold]. Hit Enter.
-To calculate the Cost, click the first cell under Cost, go to the formula bar and type =RELATED(‘Cookie Type’[Cost Per Cookie]) * Orders[Units Sold]
-To calculate Profit, click the first cell under Profit, go to the formular bar and type Orders[Revenue] – Orders[Cost]
+1. In the Order tab, add three new columns called Revenue, Cost and Profit.
+2. To calculate the Revenue, click the first cell under Revenue, go to the formula bar and type **=RELATED(‘Cookie Type’[Revenue Per Cookie]) * Orders[Units Sold]**. Hit Enter.
+3. To calculate the Cost, click the first cell under Cost, go to the formula bar and type **=RELATED(‘Cookie Type’[Cost Per Cookie]) * Orders[Units Sold]**
+4. To calculate Profit, click the first cell under Profit, go to the formular bar and type **Orders[Revenue] – Orders[Cost]**
 
 
-Calculate Total Number of Customers
+**Calculate Total Number of Customers**
 
 Click on Measure
 ![g6](https://user-images.githubusercontent.com/115732734/227543706-93784572-a57e-4b9e-b783-be1ef2ee3dbc.jpg)
 
 
-  2. Choose Customer Table, name the measure as Total Number of Customers
+**2. Choose Customer Table, name the measure as Total Number of Customers**
   
 ![g7](https://user-images.githubusercontent.com/115732734/227543710-684300d8-3077-4d7e-b603-9d796cc87d4d.jpg)
 
-  3. In the formula space, type =DISTINCTCOUNT([Customer ID]) and click OK.
+  3. In the formula space, type **=DISTINCTCOUNT([Customer ID])** and click OK.
 
   4. Click on Manage and navigate to the Customers tab. Below the table, you will see Total Number of Customers = 5
   
@@ -98,49 +98,49 @@ Click on Measure
 
 
 
-Calculate Total Profit using a Measure
+**Calculate Total Profit using a Measure**
 
-Click under the previous measure and type in the formular bar =SUM(Orders[Profit]) and hit Enter.
-Rename the measure to Total Profit and format it to currency.
+1. Click under the previous measure and type in the formular bar **=SUM(Orders[Profit])** and hit Enter.
+2. Rename the measure to **Total Profit** and format it to currency.
 
 ![g10](https://user-images.githubusercontent.com/115732734/227543717-bff12f89-bcd1-4c6b-8d18-4787a626ae73.jpg)
 
 
-Calculate Average Profit per Customer
+**Calculate Average Profit per Customer**
 
-Click under the Total Profit and type in the formular bar =[Total Profit]/[Total number of customers] and hit Enter.
-Rename it to Average Profit per Customer and format it to currency.
-
-
+Click under the Total Profit and type in the formular bar **=[Total Profit]/[Total number of customers]** and hit Enter.
+Rename it to **Average Profit per Customer** and format it to currency.
 
 
-Calculate number of Orders each Customer has placed
+
+
+**Calculate number of Orders each Customer has placed**
 
 Close Power Pivot
-Go to Insert tab and click on Pivot Tables. Choose New Worksheet.
-Expand the Customer table on the far right under PivotTable fields and drag the name column into Rows. Do same for the Order table and drag Order ID into Values. 
-Click the drop-down arrow on Order ID and go to Value Field settings. Change the Sum to Count.
+Go to **Insert tab** and click on **Pivot Tables.** Choose **New Worksheet.**
+Expand the **Customer table** on the far right under **PivotTable fields** and drag the **name** column into **Rows.** Do same for the **Order table** and drag **Order ID** into **Values.** 
+Click the drop-down arrow on **Order ID** and go to **Value Field settings.** Change the **Sum** to **Count.**
 
 ![g11](https://user-images.githubusercontent.com/115732734/227543721-08e2207c-d88c-4e69-9dfe-a59564801ea0.jpg)
 
 
 
-Calculate Profit made on each Customer
+**Calculate Profit made on each Customer**
 
-Click on Customer table and drag our Total Profit measure into the Values field.
-Click on Power Pivot and select KPIs just beside Measures. Click on New KPI
-Choose Total Profit as KPI base field (value)
-Make the Absolute value 600000 and click OK
+1. Click on **Customer table** and drag our **Total Profit** measure into the Values field.
+2. Click on **Power Pivot** and select **KPIs** just beside Measures. Click on New **KPI**
+3. Choose **Total Profit** as KPI base field (value)
+4. Make the **Absolute value** 600000 and click **OK**
 
 ![g12](https://user-images.githubusercontent.com/115732734/227543723-117b99df-efc8-4bc2-9fe6-abdb1a0ce323.jpg)
 
 
 
-   5. A new column named Total Profit Status should be added.
+   5. A new column named **Total Profit Status** should be added.
 
-   6. Go to the Customers table under PivotTable fields and scroll down until you see a new icon with traffic symbol  named Total Profit.
+   6. Go to the **Customers table** under **PivotTable fields** and scroll down until you see a new icon with traffic symbol  named **Total Profit.**
 
-   7. Uncheck fx Value (Total Profit), Goal and Status and recheck only Status. You should see the values under Total Profit Status changed into color scale.  
+   7. Uncheck **fx Value (Total Profit), Goal** and **Status** and recheck only Status. You should see the values under **Total Profit Status** changed into color scale.
 
 ![g13](https://user-images.githubusercontent.com/115732734/227543728-20b1e362-7f8c-4b3e-a447-7cb77e78b1b9.jpg)
 
@@ -148,10 +148,10 @@ Make the Absolute value 600000 and click OK
 
   8. Check both the Goal and fx Value (Total Profit)
 
-Visualize our Results
+**Visualize our Results**
 
-Go to PivotChart Analyze and click on Pivot Chart
-Select Pie Chart and click OK
+1. Go to PivotChart Analyze and click on Pivot Chart
+2. Select Pie Chart and click OK
 
 ![g14](https://user-images.githubusercontent.com/115732734/227543731-ba432da6-6ef5-4f25-814c-267661e42690.jpg)
 
@@ -163,6 +163,6 @@ Select Pie Chart and click OK
 ![g15](https://user-images.githubusercontent.com/115732734/227543732-00d0e21f-9e25-4b1a-916f-bf899e589ff4.jpg)
 
 
-Please find Dataset Below
+**Please find Dataset Below**
 
 [GroceryStoreAwesomeChocolateAnalysis.xlsx](https://github.com/justinjabo250/Grocery-Store-Analysis-Project/files/11063731/Grocery_Store_Awesome_Chocolate_Analysis.xlsx)
