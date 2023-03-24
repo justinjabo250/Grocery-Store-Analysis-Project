@@ -166,3 +166,8 @@ Click the drop-down arrow on **Order ID** and go to **Value Field settings.** Ch
 **Please find Dataset Below**
 
 [GroceryStoreAwesomeChocolateAnalysis.xlsx](https://github.com/justinjabo250/Grocery-Store-Analysis-Project/files/11063731/Grocery_Store_Awesome_Chocolate_Analysis.xlsx)
+
+<h3>Final Project Grocery Store Analysis</h3>
+<p>This Final Study and the recommendations we offer, after Examining and conducting a more thouroghly Analysis of Grocery Stores.</p>
+
+[GroceyStoreAnalysis.xlsx](https://github.com/justinjabo250/Grocery-Store-Analysis-Project/files/11064485/GroceyStoreAnalysis.xlsx)
