@@ -171,3 +171,55 @@ Click the drop-down arrow on **Order ID** and go to **Value Field settings.** Ch
 <p>This Final Study and the recommendations we offer, after Examining and conducting a more thouroghly Analysis of Grocery Stores.</p>
 
 [GroceyStoreAnalysis.xlsx](https://github.com/justinjabo250/Grocery-Store-Analysis-Project/files/11064485/GroceyStoreAnalysis.xlsx)
+
+
+<br>
+
+<h3>Websites and references andlink that we have used while conducting our analysis</h3> </br>
+
+**Websites**
+
+https://www.geeksforgeeks.org/introduction-to-excel-spreadsheet/
+
+</br>
+
+**Videos**
+
+<ul>
+ <label for="html">Working with MS Excel</label><br>
+  <li>https://www.youtube.com/watch?v=k1VUZEVuDJ8&t=1s</li>
+   <li>https://www.youtube.com/watch?v=bhZckWTLkJM&t=2s</li>
+   <li>https://www.youtube.com/watch?v=47yu50CsH00</li>
+  
+  <label for="html">MS Excel Function</label><br>
+  <li>https://www.youtube.com/watch?v=rNlie4RGdCU&t=6s</li>
+  
+   <label for="html">Advanced MS Excel Function</label><br>
+  <li>https://www.youtube.com/watch?v=A0jLeIG_pJY</li>
+  
+  <label for="html">Pivot Table</label><br>
+  <li>https://www.youtube.com/watch?v=yH_ArqoB0no&t=1s</li>
+  
+  <label for="html">Statistics</label><br>
+  <li>https://www.youtube.com/watch?v=h8EYEJ32oQ8&t=1s</li>
+  
+  <label for="html">Comparing means of distributions</label><br>
+  <li>https://www.youtube.com/watch?v=pPnxPrhf6Ww</li>
+  
+  <label for="html">Impact on median and mean when removing lowest value example</label><br>
+  <li>https://www.youtube.com/watch?v=-2OOBEBq9-4&t=1s</li>
+  
+  <label for="html">Population Standard deviation, Descriptive statistics, Probability and statistics</label><br>
+  <li>https://www.youtube.com/watch?v=PWiWkqHmum0&t=1s</li>
+  
+  <label for="html">Sample Standard deviation and bias</label><br>
+  <li>https://www.youtube.com/watch?v=DNAnQBhGpRw&t=6s</li>
+  
+  <label for="html">Comparing distributions</label><br>
+  <li>https://www.youtube.com/watch?v=lT3LRjtSbJc</li>
+  
+  <label for="html">Mean absolute deviation example, Data and statistics</label><br>
+  <li>https://www.youtube.com/watch?v=DPuK6ZgBGmE</li>
+  
+</ul>
+
