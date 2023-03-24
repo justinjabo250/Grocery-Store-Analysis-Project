@@ -1,7 +1,20 @@
 # Grocery-Store-Analysis-Project
 
-![image](https://user-images.githubusercontent.com/115732734/227569779-e4784364-114a-47b2-917f-3042064e519a.png)
+This is a Grocery Store Analysis Project, and in order to do our analysis on behalf of The Grocery Store. 
 
+These are the tools we will be utilizing: Excel, Excel-spreadsheet, Excel Power Pivot to complete all tasks that must be completed:
+
+The Dataset has been provided.
+
+Key skill that we shall use:
+
+    . Basics of Working with Excel
+    . Excel Functions
+    . advanced excel functions
+    . Pivot Tables and Power Pivot
+    . Descriptive Statistics with MS Excel
+    . Measures of Dispersion
+    . Comparing Data Distributions
 
 
 The following are the essential stages we followed to develop our final project.
