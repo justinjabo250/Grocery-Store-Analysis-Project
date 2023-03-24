@@ -37,7 +37,8 @@ Week 1 Project: Grocery Store Analysis
 Now we want to create relationship between the three files
 
 Click on Diagram View
-Application, table  Description automatically generated
+
+![g4](https://user-images.githubusercontent.com/115732734/227543647-9c722dcf-8d94-4894-8065-3cbec57e418c.jpg)
 
 
 
@@ -86,8 +87,7 @@ Calculate Total Profit using a Measure
 Click under the previous measure and type in the formular bar =SUM(Orders[Profit]) and hit Enter.
 Rename the measure to Total Profit and format it to currency.
 
-![g9](https://user-images.githubusercontent.com/115732734/227543715-0a6e61a8-cd26-493d-93ca-5eab5ac6ed23.jpg)
-
+![g10](https://user-images.githubusercontent.com/115732734/227543717-bff12f89-bcd1-4c6b-8d18-4787a626ae73.jpg)
 
 
 Calculate Average Profit per Customer
