@@ -3,9 +3,9 @@ This is a Grocery Store Analysis Project,
 
 Week 1 Project: Grocery Store Analysis
 
-Add Power Pivot to your Menu bar
-Click on Manage 
-Graphical user interface, application, table  Description automatically generated
+1. Add Power Pivot to your Menu bar
+2. Click on Manage 
+![g1](https://user-images.githubusercontent.com/115732734/227537033-083567dd-6a38-4516-be79-a46f63c38edc.jpg)
 
 
 
@@ -14,9 +14,6 @@ Graphical user interface, application, table  Description automatically generate
     4. A new window opens. On the Home Click on Get Data from other sources.
 
     5. Scroll down and click Excel File.
-    
-<h2>HTML Image
-<img src="g1.jpg" alt="Trulli" width="500" height="333"></h2>
 
 Graphical user interface, application  Description automatically generated
 
